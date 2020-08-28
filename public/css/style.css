@@ -1,0 +1,88 @@
+body {
+    margin: none;
+    padding: none;
+}
+
+.bg-image {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 120vh;
+}
+
+.bg-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.flex-center {
+     font-size: 50px; 
+    text-align: center;
+     color: white;
+    line-height: 400px; 
+}
+
+ /* a {
+    text-decoration: none;
+    color: cornsilk;
+     line-height: 500px; 
+     font-weight: bold;
+    margin-right: 50px; 
+    
+
+}  */
+
+a.btn-radius-solid {
+    background: #f1e767;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f1e767), to(#a76e6e));
+    background: -webkit-linear-gradient(top, #f1e767 0%, #a76e6e 100%);
+    background: linear-gradient(to bottom, #f1e767 0%, #a76e6e 100%);
+    text-decoration: none;
+    color: cornsilk;
+     line-height: 500px; 
+     font-weight: bold;
+    /* margin-right: 50px;  */
+    padding: 20px;
+    margin-right: 60px;
+    font-size: 50px;
+    border-radius: 20px;
+    margin-left: 80px;
+  }
+  
+  a.btn-radius-solid:hover {
+    background: -webkit-gradient(linear, left bottom, left top, from(#f1e767), to(#feb645));
+    background: -webkit-linear-gradient(bottom, #f1e767 0%, #feb645 100%);
+    background: linear-gradient(to top, #f1e767 0%, #feb645 100%);
+  }
+  
+
+h1 {
+    margin: 0;
+}
+
+   .container {
+    font-family: "Yu Gothic", YuGothic, Verdana, 'Hiragino Kaku Gothic ProN','Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'メイリオ', Meiryo, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    height: 100px;
+  } 
+   
+   ここから下がボタンのCSS
+   .btn-gradation {
+    display: inline-block;
+    text-align: left;
+    background-image: linear-gradient(#eaeaea 0%, #c6c6c6 100%);
+    box-shadow: inset 0 2px 0 rgba(255,255,255,0.5), 0 2px 2px rgba(0, 0, 0, 0.19);
+    color: #a5a5a5;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
+    padding: 2px 50px;
+    border-radius: 4px;
+    font-size: 50px;
+   
+  }
+  
+  .btn-gradation:hover {
+    opacity: 0.8;
+  } 

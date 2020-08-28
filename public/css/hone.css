@@ -1,0 +1,142 @@
+.head-text {
+    font-weight: bold;
+    line-height: 100px;
+    font-size: 50px;
+    background: #263859;
+    box-shadow: 0px 0px 0px 5px #6b778b;
+    border: dashed 1px #ffff;
+    padding: 0.2em 0.5em;
+    color: #fff;
+    margin: 8px auto;
+}
+
+
+
+.bg-image-fixed {
+    position: fixed;
+    z-index: -1;
+    opacity: 0.;
+    width: 100vw;
+    height: 120vh;
+    margin-top: -45px;
+  }
+  
+  .bg-image-fixed img {
+    width: 100%;
+    height: 100%;
+  }
+
+.main-contents {
+    padding: 0;
+    font-size: 20px;
+}
+
+.btn.left {
+    float: right;
+}
+
+.sub-content {
+    text-align: center;
+    font-size: 20px;
+}
+
+.book-table {
+    margin: auto;
+}
+
+.text_left {
+    color: #7c7e86;
+}
+
+.ii {
+    color: #7c7e86;
+}
+
+.yy {
+    color: #fff;
+}
+
+.hh {
+    background: linear-gradient(transparent 80%, #6b778b 70%);
+    width: 1150px;
+    margin: auto;
+    display: flex;
+    line-height: 100px;
+    color: #ffff;
+    font-size: 20px;
+    
+}
+
+.hh li {
+    padding-left: 160px;
+    padding-right: 160px;
+    list-style: none;
+}
+
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+   
+}
+
+.book-table  {
+    background-color: rgba(33,33,33,.4);
+}
+
+input {
+    margin: .4rem auto;
+    width: 400px;
+}
+
+.vv {
+    background-color: rgba(33,33,33,.3);
+}
+
+/* label {
+    color: white;
+} */
+
+.btn-text-gradient {
+    background: linear-gradient(to left, #a9a9a9, #fff);
+    padding: .5rem;
+}
+
+.btn-text-gradient:hover {
+    background: linear-gradient(to right, #a9a9a9, #fff);
+}
+
+.btn-text-gradient--yg {
+    background: linear-gradient(to left, #a9a9a9, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn-text-gradient:hover .btn-text-gradient--yg {
+    background: linear-gradient(to right, #a9a9a9, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+  
+
+ button.btn.btn-border-shadow.btn-border-shadow--radius{
+    
+        background-color: #000000;
+        color: #fff;
+        font-size: 35px;
+        font-weight: bold;
+  }
+
+  .book-form {
+      color: #fff;
+  }
+
+td.td-center {
+    text-align: center;
+}
+
+td.td-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
